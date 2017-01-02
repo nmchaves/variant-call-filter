@@ -1,4 +1,4 @@
-# variant-caller
+# variant-call-filter
 
 TLDR: This project consists of variant call filtering experiments. The primary objective is to attain similar sensitivity/specifity to GATK's VQSR tool without requiring as many modeling assumptions or manual user input.
 
