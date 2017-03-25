@@ -8,7 +8,7 @@ When a gene sequencing pipeline finds evidence of a variant (AKA mutation or SNP
 
 ## Dataset
 
-I used variant calls obtained by Illumina reads from individual NA12878. Information about how to get the dataset is available on the [Genome Analysis Toolkit (GATK) website](http://gatkforums.broadinstitute.org/gatk/discussion/1213/whats-in-the-resource-bundle-and-how-can-i-get-it). After obtaining the ".vcf" file you want to filter (and the associated ".idx" file), you should run my [preprocessing steps](https://github.com/nmchaves/variant-call-filter/blob/master/preprocessing/multi_chrom/preprocess_VCF.ipynb). This notebook applies VQSR, converts the data to a more convenient table format, selects legitimate numerical features from the data (e.g. it drops features with NaN's), and it scales/normalizes the non-categorical data.
+I used variant calls obtained by Illumina reads from individual NA12878. Information about how to get the dataset is available on the [Genome Analysis Toolkit (GATK) website](http://gatkforums.broadinstitute.org/gatk/discussion/1213/whats-in-the-resource-bundle-and-how-can-i-get-it). After obtaining the ".vcf" file you want to filter (and the corresponding ".idx" file), you should run my [preprocessing steps](https://github.com/nmchaves/variant-call-filter/blob/master/preprocessing/multi_chrom/preprocess_VCF.ipynb). This notebook applies VQSR, converts the data to a more convenient table format, selects legitimate numerical features from the data (e.g. it drops features with NaN's), and it scales/normalizes the non-categorical data.
 
 ## GATK Approach
 
