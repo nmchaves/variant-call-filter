@@ -16,4 +16,4 @@ GATK has a variant call filtering tool called [Variant Quality Score Recalibrati
 
 ## My Approach
 
-Since we now have access to gold standard variant call datasets, I used such data to train supervised learning algorithms, such as logistic regression, support vector machine, and random forest. I've ran several [experiments], which are contained in Jupyter notebooks for transparency.
+Since we now have access to gold standard variant call datasets, I used such data to train supervised learning algorithms, such as logistic regression, support vector machine, and random forest. I've ran several [experiments](https://github.com/nmchaves/variant-call-filter/tree/master/experiments), which are contained in Jupyter notebooks for transparency.
