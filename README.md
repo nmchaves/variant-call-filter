@@ -4,7 +4,7 @@ TLDR: This project consists of variant call filtering experiments. The primary o
 
 ## Variant Calling and Filtering 
 
-When a gene sequencing pipeline finds evidence of a variant (AKA mutation or SNP), it outpus a "variant call". In practice, one finds that many of these variant calls tend to be false positives. In other words, the genome of interest does not in fact contain the "called" genetic variant. In the datasets I used, approximately 10-15% of the variant calls are false positives. In order to obtain a high quality variant call set, one must attempt to filter out the false positives. This is the goal of my project.
+When a gene sequencing pipeline finds evidence of a variant (AKA mutation or SNP), it outputs a "variant call". In practice, one finds that many of these variant calls tend to be false positives. In other words, the genome of interest does not in fact contain the "called" genetic variant. In the datasets I used, approximately 10-15% of the variant calls are false positives. In order to obtain a high quality variant call set, one must attempt to filter out the false positives. This is the goal of my project.
 
 ## Dataset
 
